@@ -1,0 +1,20 @@
+name: grpc_common
+description: A sample command-line application.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  grpc: ^3.0.2
+  lint:
+    git:
+      url: https://github.com/pro100andrey/lint.git
+  logging: ^1.0.2
+  pretty_logging:
+    git:
+      url: https://github.com/pro100andrey/pretty_logging.git
+      ref: bc687e0
+  protobuf: ^2.0.1
+  

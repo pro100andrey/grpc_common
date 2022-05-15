@@ -1,0 +1,6 @@
+include: package:lint/common.yaml
+
+analyzer:
+  exclude:
+    - "**/generated/**/*.dart"
+    - "**/generated/*.dart"
