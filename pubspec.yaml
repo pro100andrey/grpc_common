@@ -15,6 +15,6 @@ dependencies:
   pretty_logging:
     git:
       url: https://github.com/pro100andrey/pretty_logging.git
-      ref: bc687e0
+      ref: master
   protobuf: ^2.0.1
   
